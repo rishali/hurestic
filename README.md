@@ -1,2 +1,0 @@
-# hurestic
-internship project
