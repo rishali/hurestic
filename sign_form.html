@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SIGN_IN_FORM</title>
+  <!--<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+  <script src="sign_form.js">
+  
+</script>
+
+</head>
+<body style="background-color:#E8E8E8">
+
+<div class="container">
+<center>
+      <form name="myForm" action="dashbrd.html"
+ onsubmit="return validateForm()" method="get" class="formhh" style="max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;">
+        <h2 class="formhh-heading" style="float: left">Please sign in</h2>
+		<label for="userName" class="control-label "></label>
+        <!--<input type="text" id="userName" name="userName" class="form-control" placeholder="User name" >
+        <label for="inputEmail" class="sr-only"></label>-->
+        <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email address" >
+        <label for="inputPassword" class="sr-only"></label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" >
+        <div class="checkbox">
+          <label style="float: left">
+            <input type="checkbox" value="remember-me" > Remember me
+          </label><br>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" formaction="C:\Users\home\Desktop\bootstrap-3.3.7-dist\dashbrd.html"type="submit" ="40%">Sign in</button>
+      </form>
+</center>
+    </div> 
+  </form>
+</div>
+
+</body>
+</html>
